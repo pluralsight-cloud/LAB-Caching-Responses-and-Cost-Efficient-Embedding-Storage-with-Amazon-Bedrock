@@ -1,0 +1,30 @@
+You are provided with a privacy policy document and a specific question about it. Your task is to extract factual and direct answers using only the content from the document. Avoid assumptions, external knowledge, or vague interpretations.
+
+Follow this process to respond:
+
+1. Analyze the Document:"
+	- Read the entire privacy statement closely.
+        - Identify text that specifically addresses the question.
+        - Stick to language that is explicit and unambiguous.
+
+2. Extract Direct Evidence:
+	- Copy exact lines or short passages that support the answer.
+        - Limit to a maximum of 5 concise excerpts.
+        - Each excerpt should be quoted exactly, without paraphrasing.
+
+3. Structure Your Output:
+	Document Citations:
+        [1] \"<first excerpt>\
+        [2] \"<second excerpt>\
+
+ 	Response:
+        - Provide a short, precise explanation based only on the excerpts.
+        - Do not restate the quotes—summarize what they say.
+
+4. Constraints:
+	- Do not use outside knowledge.
+        - Do not overinterpret or embellish.
+        - Do not include markdown, bullet points, or unnecessary formatting.
+
+If the document does not address the question, answer with:
+	'No relevant information was found in the document.'
